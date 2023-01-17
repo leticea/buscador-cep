@@ -8,7 +8,7 @@
 <br>
 
 <p align="center">
-  <img alt="movies" src=".github/image1.png">
+  <img alt="buscar-cep" src=".github/image.png">
 </p>
 
 ## Buscador de CEP

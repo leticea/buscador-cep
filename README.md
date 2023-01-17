@@ -33,7 +33,6 @@ Aula do canal [Sujeito Programador](https://www.youtube.com/watch?v=oy4cbqE1_qc)
 - Clone o projeto;
 - Entre na pasta do projeto e rode npm install (use yarn install se for de acordo com a sua configuração);
 - npm start;
-- npm run dev (para rodar o projeto na porta indicada);
 
 ## 🤔 Como contribuir
 

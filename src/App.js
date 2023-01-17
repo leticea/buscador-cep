@@ -7,6 +7,7 @@ import api from './services/api';
 function App() {
 
   const [input, setInput] = useState('');
+  const [cep, setCep] = useState({});
 
   async function handleSearch() {
 
@@ -17,7 +18,8 @@ function App() {
 
     try {
       const response = await api.get(`${input}/json`);
-      console.log(response.data);
+      setCep(response.data);
+      setInput("");
 
     } catch {
       alert("Erro ao buscar");
@@ -43,12 +45,12 @@ function App() {
       </div>
 
       <main className="main">
-        <h2>CEP: 98765556</h2>
+        <h2>CEP: {cep.cep}</h2>
 
-        <span>Rua teste</span>
-        <span>Complemento: algum complemento</span>
-        <span>Alfeneiros</span>
-        <span>São Paulo - SP</span>
+        <span>{cep.logradouro}</span>
+        <span>Complemento: {cep.complemento}</span>
+        <span>{cep.bairro}</span>
+        <span>{cep.localidade} - {cep.uf}</span>
 
       </main>
     </div>

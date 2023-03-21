@@ -17,10 +17,10 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [ReactJS](https://reactjs.org/)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Nodejs](https://nodejs.org/en/) - 18.12.1
+- [NPM](https://www.npmjs.com/) - 8.19.2
 
 ## 💻 Projeto
 
